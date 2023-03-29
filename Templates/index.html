@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+  <title>Student External Marks Prediction</title>
+  <!--<link rel="stylesheet" type="text/css" href="style1.css" />-->
+  <link rel="stylesheet" href="/static/style1.css">
+  <!--<link rel="stylesheet" type="text/css" href="/static/style1.css">-->
+</head>
+<body>
+    
+<div class="content">
+    <div class="link1">
+
+        <a href="/Mookan/About.html">HOME</a></div>
+        <div class="link2"><a href="/Mookan/Base.html">Log Out</a>
+        </div>
+        <h2 class="text-center">External Marks Scored</h2>
+        <div class="form">
+            <form action="{{url_for('index')}}"method="POST">
+                <div class="input">
+                    <div class="option">
+                     <select name="sem" id="sem">
+                        <option value="0" >Choose Semster</option>
+                        <option value="1" >Semster 1 </option>
+                        <option value="2">Semster 2</option>
+                        <option value="3">Semster 3</option>
+                        <option value="4">Semster 4</option>
+                        <option value="5">Semster 5</option>
+                        <option value="6">Semster 6</option>
+                     </select>
+                     <select name="sub" id="sub">
+                        <option value="sub0" >Choose Subject</option>
+                        <option value="sub1">subject1</option>
+                        <option value="sub2">subject2</option>
+                        <option value="sub3">subject3</option>
+                        <option value="sub4">subject4</option>
+                        <option value="sub5">subject5</option>
+                     </select></div>
+                     <br>
+                    <input class="form-input" type="text" name="content" id="content" placeholder="Enter Your Internal mark"><br>
+                    <br><input class="form-input" type="text" name="external" id="external" placeholder="Enter Your External mark"><br>
+                    <!--<input class="form-input" type="text" name="credit" id="credit" placeholder="Enter Your Credit">-->
+                </div>
+                
+                <div class="but">
+                <button class="btn btn-sm btn-dark">Submit</button></div>
+                 <h2 class="text-wenter">{{pedicted}}</h2>
+                 <h2 class="text-went">{{external}}</h2>
+                 <h2 class="text-went">{{observation}}</h2>
+            </form>
+        </div>
+
+</div>
+<footer class="background">
+    <p class="text-footer">
+        Copyright &copy; 2023 - DSC - The American COllege All rights reserved
+    </p>
+</footer>
+
+
+ </body>
+</html>

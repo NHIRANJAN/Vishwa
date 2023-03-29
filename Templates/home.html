@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+  <title>Student External Marks Prediction</title>
+  <link rel="stylesheet" type="text/css" href="\Templates\style.css">
+</head>
+<body>
+    
+<div class="content">
+
+        <h2 class="text-center">External Marks Scored</h2>
+        <div class="form">
+            <form action="{{url_for('index')}}"method="POST">
+                <input class="form-input" type="text" name="content" id="content" placeholder="Enter Your Internal mark"><br>
+                <input class="form-input" type="text" name="external" id="external" placeholder="Enter Your External mark"><br>
+                <input class="form-input" type="text" name="credit" id="credit" placeholder="Enter Your Credit">
+                <div class="but">
+                <button class="btn btn-sm btn-dark">Submit</button></div>
+                 <h2 class="text-wenter" style="color:red;">{{pedicted}}</h2>
+            </form>
+        </div>
+
+</div>
+<footer class="background">
+    <p class="text-footer">
+        Copyright &copy; 2023 - DSC - The American COllege All rights reserved
+    </p>
+</footer>
+
+
+ </body>
+</html>
