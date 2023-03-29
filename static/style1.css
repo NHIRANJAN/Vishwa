@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    background-color: rgba(67, 0, 252, 0.7);
+    background-image:url("bg5.jpg");
+    /* background-blend-mode: darken; */
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+.content input:hover
+{
+    box-shadow: 0px 2px 5px 5px rgba(8, 111, 230, 0.7);
+}
+.content input{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.text-center{
+    text-align: center;
+    padding: 7px;
+    font-family: 'Ubuntu', sans-serif;
+    color: wheat;
+    font-size: 5vw;
+    padding-top:150px;
+}
+
+.form{
+ min-width: 500px;
+ margin: 25px auto;
+ text-align: center;
+ justify-content: center;
+}
+.form-input{
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px 3px;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+
+}
+
+
+.btn{
+width: 12vw;
+height: 10vw;
+
+    /* margin: 7px 3px ; */
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 6px solid white;
+    background-color: darkkhaki;
+    font-size: 5vw;
+    color: white;
+    cursor: pointer;
+
+}
+.btn-sm{
+    width: 12vw;
+    height: 8vh;
+    margin-top: 20px;
+    vertical-align: middle;
+    padding: 6px 10px;
+    font-size: 2vw;
+}
+
+.btn-dark{
+    width: 12vw;
+    height: 8vh;
+    color:rgb(255, 19, 19);
+    border:2px solid black;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 2vw;
+
+}
+.background{
+   background-color:rgba(0, 0, 0 ,0.7);
+   background-blend-mode: darken;
+   background-size: cover;
+
+
+
+}
+
+.text-footer{
+    /* margin-top: 2px; */
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    color:rgb(17, 0, 255);
+    display: flex;
+    justify-content: center;
+
+
+}
+button:hover
+{
+    box-shadow: 0px 2px 5px 5px rgba(255, 0, 242, 0.7);
+    color: rgb(235, 10, 10);
+}
+.text-wenter{
+    margin-top: 15px;
+    color: greenyellow;
+}
+.text-went{
+    margin-top: 15px;
+    color: chocolate;
+}
+.option{
+    font-size: 19px;
+    padding: 5px 3px;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    
+}
+select{
+    background-color: black;
+    color: gray;
+    border: 2px solid;
+    border-radius: 10px;
+    height: 30px;
+   
+}
+option{
+    border: 2px solid;
+    border-radius: 10px;
+    color: gray;
+    background-color: black;
+}
+.option:hover{
+    box-shadow: blue;
+}
+.link1{
+    color: rgb(255, 255, 255);
+    margin-left: 75vw;
+    border: 2px solid black;
+    width: 80px;
+    background-color: rgb(11, 96, 255);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    height: 35px;
+}
+.link2{
+    margin-top: -38px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left:85vw;
+    border: 2px solid black;
+    width: 80px;
+    font-size: 21px;
+    text-align: center;
+    background-color: rgb(11, 96, 255);
+    border-radius: 5px;
+    text-align: center;
+    height: 35px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+    color: brown;
+}
